@@ -17,7 +17,8 @@ A simple guide for getting started with git. No crap and deep-shit!
 -	[Replacing Local Changes](#replacing-local-changes)
 -	[Useful Hints](#useful-hints)
 -	[Links & Resources](#links-&-resources)
-
+	-	[Graphical Clients](#graphical-clients)
+	-	[Guides](#guides)
 ## Setup
 
 *	[Download git for OSX](https://git-scm.com/download/mac)
@@ -154,3 +155,27 @@ git reset --hard origin/master
 *	Use interactive adding	-	` git add -i`
 
 ## Links & Resources
+
+### Graphical Clients
+
+*	GitX (L) [OSX, open source]
+
+*	Tower [OSX]
+
+*	Source Tree [OSX & Windows, free]
+
+*	GitHub for Mac [OSX free]
+
+*	GitBox [OSX, Appstore]
+
+### Guides
+
+*	 Think like a git
+
+*	Pro Git
+
+*	Git Community Book
+
+*	A Visual Git Guide
+
+*	GitHub Help
