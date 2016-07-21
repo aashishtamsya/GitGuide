@@ -130,6 +130,27 @@ Your local respository consists of three "trees" maintained by git.
 
 ## Replacing Local Changes
 
+*	In case you did something wrong, which for sure never happens <smiley>, you can replace local changes using the command ` git checkout -- <filename> `.
+
+*	This replaces the changes in your working tree with the last content in ` HEAD `.  Changes already added to the ` Index `, as well as new files, will be kept.
+
+*	If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local *master* branch at it like this 
+```git 
+
+git fetch origin
+
+git reset --hard origin/master
+
+``` 
+
 ## Useful Hints
+
+*	Built-in git GUI	-	` gitk `.
+
+*	Use colorful git output	-	` git config color.ui true `.
+
+*	Show log on just one line per commit	-	` git config format.pretty oneline `.
+
+*	Use interactive adding	-	` git add -i`
 
 ## Links & Resources
