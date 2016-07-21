@@ -16,6 +16,7 @@ A simple guide for getting started with git. No crap and deep-shit!
 -	[Log](#log)
 -	[Replacing Local Changes](#replacing-local-changes)
 -	[Useful Hints](#useful-hints)
+	-	[Useful Git Commands](#useful-git-commands)
 -	[Links & Resources](#links-&-resources)
 	-	[Graphical Clients](#graphical-clients)
 	-	[Guides](#guides)
@@ -153,6 +154,12 @@ git reset --hard origin/master
 *	Show log on just one line per commit	-	` git config format.pretty oneline `.
 
 *	Use interactive adding	-	` git add -i`
+
+### Useful Git Commands
+
+COMMING SOON
+
+A curated list of useful git commands. [View More]()
 
 ## Links & Resources
 
