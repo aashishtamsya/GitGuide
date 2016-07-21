@@ -131,6 +131,8 @@ Your local respository consists of three "trees" maintained by git.
 
 *	Or maybe you want to see an ASCII art tree of all the branches, decorated with the names of tags and branches, ` git log --graph --oneline --decorate --all `.
 
+![Graph Log](/Resources/graph.png)
+
 *	See only which files have changed, `git log --name-status`.
 
 *	These are just a few of the possible parameters you can use. For more, see ` git log --help `.
