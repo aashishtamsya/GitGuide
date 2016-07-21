@@ -16,7 +16,6 @@ A simple guide for getting started with git. No crap and deep-shit!
 -	[Log](#log)
 -	[Replacing Local Changes](#replacing-local-changes)
 -	[Useful Hints](#useful-hints)
-	-	[Useful Git Commands](#useful-git-commands)
 -	[Links & Resources](#links-&-resources)
 	-	[Graphical Clients](#graphical-clients)
 	-	[Guides](#guides)
@@ -58,6 +57,8 @@ Your local respository consists of three "trees" maintained by git.
 
 *	Finally the ` HEAD ` which points to the last commit you've made.
 
+![Workflow](/Resources/workflow.png)
+
 ## Add & Commit
 
 *	You can propose changes (add it to the ` Index `) using ` git add <filename> `.
@@ -90,6 +91,8 @@ Your local respository consists of three "trees" maintained by git.
 
 *	Use other branches for development and merge them back to the master branch upon completion.
 
+![Branching](/Resources/branching.png)
+
 *	Create a new branch named "*feature_x*" and switch to it using ` git checkout -b feature_x `.
 
 *	Switch back to master ` git checkout master `.
@@ -97,6 +100,8 @@ Your local respository consists of three "trees" maintained by git.
 *	And delete the branch again ` git branch -d feature_x `.
 
 *	A branch is *not available to others* unless you push the branch to your remote repository ` git push origin <branch> `.
+	
+	
 
 ## Update & Merge
 
@@ -137,6 +142,7 @@ Your local respository consists of three "trees" maintained by git.
 *	This replaces the changes in your working tree with the last content in ` HEAD `.  Changes already added to the ` Index `, as well as new files, will be kept.
 
 *	If you instead want to drop all your local changes and commits, fetch the latest history from the server and point your local *master* branch at it like this 
+
 ```git 
 
 git fetch origin
@@ -154,12 +160,6 @@ git reset --hard origin/master
 *	Show log on just one line per commit	-	` git config format.pretty oneline `.
 
 *	Use interactive adding	-	` git add -i`
-
-### Useful Git Commands
-
-COMMING SOON
-
-A curated list of useful git commands. [View More]()
 
 ## Links & Resources
 
