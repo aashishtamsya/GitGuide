@@ -19,6 +19,7 @@ A simple guide for getting started with git. No crap and deep-shit!
 -	[Links & Resources](#links-&-resources)
 	-	[Graphical Clients](#graphical-clients)
 	-	[Guides](#guides)
+
 ## Setup
 
 *	[Download git for OSX](https://git-scm.com/download/mac)
