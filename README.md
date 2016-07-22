@@ -167,24 +167,24 @@ git reset --hard origin/master
 
 ### Graphical Clients
 
-*	GitX (L) [OSX, open source]
+*	[GitX (L) [OSX, open source]](http://gitx.laullon.com/)
 
-*	Tower [OSX]
+*	[Tower [OSX]](https://www.git-tower.com/)
 
-*	Source Tree [OSX & Windows, free]
+*	[Source Tree [OSX & Windows, free]](https://www.sourcetreeapp.com/)
 
-*	GitHub for Mac [OSX free]
+*	[GitHub for Mac [OSX free]](https://desktop.github.com/)
 
-*	GitBox [OSX, Appstore]
+*	[GitBox [OSX, Appstore]](https://itunes.apple.com/gb/app/gitbox/id403388357?mt=12)
 
 ### Guides
 
-*	 Think like a git
+*	[Think like a git](http://think-like-a-git.net/)
 
-*	Pro Git
+*	[Pro Git](http://progit.org/book/)
 
-*	Git Community Book
+*	[Git Community Book](https://git-scm.com/book/en/v2)
 
-*	A Visual Git Guide
+*	[A Visual Git Guide](http://marklodato.github.io/visual-git-guide/index-en.html)
 
-*	GitHub Help
+*	[GitHub Help](https://help.github.com/)
