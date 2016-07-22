@@ -68,9 +68,13 @@ Your local respository consists of three "trees" maintained by git.
 
 *	To add all modified files, ` git add * `.
 
+![git add](/Resources/gitadd.png)
+
 *	This is the first step in the basic [git workflow](#git-workflow). 
 
 *	To actually commit these changes use ` git commit -m "Commit message" `.
+
+![git commit](/Resources/gitcommit.png)
 
 *	Now the file is committed to the ` HEAD `, but not in your remote repository yet.
 
@@ -79,6 +83,8 @@ Your local respository consists of three "trees" maintained by git.
 *	Your changes are now in the ` HEAD ` of your local working copy.
 
 *	To send those changes to your remote repository, execute ` git push origin master `.
+
+![git push](/Resources/gitpush.png)
 
 *	Change *master* to whatever branch you want to push your changes to.
 
@@ -126,17 +132,27 @@ Your local respository consists of three "trees" maintained by git.
 
 *	In its simplest form, you can study repository history using ` git log`.
 
+![git log](/Resources/gitlog.png)
+
 *	You can add a lot of parameters to make the log look like what you required.
 
-*	To see only the commits of a certain author, ` git log --authour=aashishtamsya`.
+*	To see only the commits of a certain author, ` git log --author="Aashish Tamsya"`.
 
-*	To see a very compressed log where each commit is in one line, ` git log --pretty=online`.
+![git author](/Resources/gitauthor.png)
+
+
+*	To see a very compressed log where each commit is in one line, ` git log --pretty=oneline`.
+
+![git oneline](/Resources/gitoneline.png)
+
 
 *	Or maybe you want to see an ASCII art tree of all the branches, decorated with the names of tags and branches, ` git log --graph --oneline --decorate --all `.
 
-![Graph Log](/Resources/graph.png)
+![git graph](/Resources/gitgraph.png)
 
 *	See only which files have changed, `git log --name-status`.
+
+![git name](/Resources/gitname.png)
 
 *	These are just a few of the possible parameters you can use. For more, see ` git log --help `.
 
