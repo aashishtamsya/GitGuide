@@ -1,4 +1,4 @@
-# HOW TO PUSH YOUR CODE ON GITHUB
+# GitGuide - How To Push Your Code & Files On Github
 
 A simple guide for getting started with git. No crap and deep-shit!
 
