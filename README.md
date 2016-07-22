@@ -42,6 +42,8 @@ $ cd /path/to/directory
 
 *	Perform a ` git init ` to create a new git repository.	
 
+![git init](/Resources/gitinit.png)
+
 ## Checkout A Repository
 
 *	Create a working copy of a local repository by running the command ` git clone /path/to/repository `.
